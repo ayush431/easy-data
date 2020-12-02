@@ -29,7 +29,7 @@ const styles = theme => ({
  });
 function TabContainer(props) {
   return (
-    <Typography component="div" tyle={{ padding: 8 * 3 }}>
+    <Typography component="div" style={{ padding: 8 * 3 }}>
       {props.children}
     </Typography>
   );
